@@ -54,6 +54,8 @@ const getColorScheme = (hex, mode="monochrome") => {
 document.getElementById("color-picker").addEventListener("change", () => {
     const colorMode = document.getElementById("color-mode-select").value
     getColorScheme(colorPickerInput.value.slice(1), colorMode)
+    
+    document.getElementById("developed-by").style.color = colorPickerInput.value 
 })
 
 getColorScheme("0047AB")
