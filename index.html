@@ -1,0 +1,45 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    
+    <div class="color-picker" id="color-picker">
+        <div>
+            <label for="color-picker-input"></label>
+            <input type="color" class="color-picker-input" id="color-picker-input">
+        </div>
+        
+        <div id="color-mode" class="color-mode">
+            <label for="color-picker-select">Choose a mode</label>
+            <select id="color-mode-select">
+                <option value="monochrome"> Monochrome </option>
+                <option value="monochrome-light"> Monochrome (Light) </option>
+                <option value="monochrome-dark"> Monochrome (Dark) </option>
+
+                <option value="analogic"> Analogic </option>
+                <option value="complement"> Complement </option>
+                <option value="analogic-complement"> Analogic-Complement </option>
+
+                <option value="triad"> Triad </option>
+                <option value="quad"> Quad </option>
+            </select>
+        </div>
+
+    </div>
+    
+    <div class="copied-message hide" id="copied-message">
+        Copied! <span id="copied-color"></span>
+    </div>
+
+    <div id="container" class="container">
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
