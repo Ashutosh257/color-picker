@@ -1,5 +1,5 @@
 
-const myVariableValue = process.env.DEVELOPER;
+const myVariableValue = process.env.API_TOKEN;
 console.log(myVariableValue);
 
 const mainEl = document.getElementById("container")
