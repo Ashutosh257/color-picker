@@ -1,7 +1,4 @@
 
-const myVariableValue = process.env.API_TOKEN;
-console.log(myVariableValue);
-
 const mainEl = document.getElementById("container")
 const colorPickerInput = document.getElementById("color-picker-input")
 const colorPickerBtn = document.getElementById("color-picker-button")
