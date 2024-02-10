@@ -1,5 +1,6 @@
 
-console.log(process.env.DEVELOPER)
+const myVariableValue = process.env.DEVELOPER;
+console.log(myVariableValue);
 
 const mainEl = document.getElementById("container")
 const colorPickerInput = document.getElementById("color-picker-input")
