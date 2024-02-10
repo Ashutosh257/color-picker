@@ -1,5 +1,5 @@
 
-console.log(provess.env.DEVELOPER)
+console.log(process.env.DEVELOPER)
 
 const mainEl = document.getElementById("container")
 const colorPickerInput = document.getElementById("color-picker-input")
