@@ -1,4 +1,6 @@
 
+console.log(provess.env.DEVELOPER)
+
 const mainEl = document.getElementById("container")
 const colorPickerInput = document.getElementById("color-picker-input")
 const colorPickerBtn = document.getElementById("color-picker-button")
