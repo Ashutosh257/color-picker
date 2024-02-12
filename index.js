@@ -1,5 +1,5 @@
 
-import { DEVELOPER } from './config.js'
+import DEVELOPER  from './config.js'
 
 console.log(DEVELOPER) 
 
