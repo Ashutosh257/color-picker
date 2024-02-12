@@ -1,4 +1,8 @@
 
+import { DEVELOPER } from './config.js'
+
+console.log(DEVELOPER) 
+
 const mainEl = document.getElementById("container")
 const colorPickerInput = document.getElementById("color-picker-input")
 const colorPickerBtn = document.getElementById("color-picker-button")
